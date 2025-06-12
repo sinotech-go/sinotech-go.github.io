@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SinoTech - Smart Data, Smarter Decisions</title>
+    <meta
+      name="description"
+      content="SinoTech adalah perusahaan teknologi yang fokus pada pengembangan dashboard cerdas berbasis AI untuk peramalan data."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="navbar">
+        <a href="#hero" class="nav-logo">SinoTech</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#about" class="nav-link">Tentang</a>
+          </li>
+          <li class="nav-item">
+            <a href="#products" class="nav-link">Produk</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Kontak</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="hero-section">
+        <div class="hero-content" data-aos="fade-up">
+          <p class="hero-intro">
+            🚀 AI-Based Dashboards for Predictive Intelligence
+          </p>
+          <h1 class="hero-title">SinoTech</h1>
+          <p class="hero-tagline">"Smart Data, Smarter Decisions"</p>
+          <a href="#products" class="btn btn-primary">Lihat Solusi Kami</a>
+        </div>
+      </section>
+
+      <section id="about" class="content-section">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-right">
+            <span>01.</span> Tentang Kami
+          </h2>
+          <div class="about-content" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              SinoTech adalah perusahaan teknologi yang fokus pada pengembangan
+              dashboard cerdas berbasis AI, untuk membantu masyarakat dan
+              industri membuat keputusan lebih baik dengan peramalan berbasis
+              data.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="content-section">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-up">
+            <span>02.</span> Solusi Inovatif Kami
+          </h2>
+
+          <div class="product-card" data-aos="fade-up">
+            <div class="product-image-mockup">
+              <img src="vegenation.png" alt="Mockup Dashboard VegeNation" />
+            </div>
+            <div class="product-description">
+              <h3>🧠 VegeNation – Agritech Intelligence Dashboard</h3>
+              <p>
+                Dashboard prediktif untuk memantau dan memproyeksikan harga
+                sayur berbasis data historis, cuaca, inflasi, dan hari libur
+                nasional.
+              </p>
+              <ul>
+                <li>✅ Prediksi harga dengan model LSTM</li>
+                <li>✅ Integrasi data dinamis (cuaca, inflasi, dll)</li>
+                <li>✅ Chatbot interaktif berbasis LLM-RAG</li>
+              </ul>
+              <div class="tech-stack">
+                <span>Flask</span> <span>Next.js</span> <span>Python</span>
+                <span>Gemini Flash 2.0</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card reverse" data-aos="fade-up">
+            <div class="product-image-mockup">
+              <img src="potify.png" alt="Mockup Produk Potify" />
+            </div>
+            <div class="product-description">
+              <h3>💧 Potify – Smart Irrigation in a Pot</h3>
+              <p>
+                Sistem irigasi otomatis berbasis IoT yang menyiram tanaman jika
+                kelembapan tanah rendah dan air cukup tersedia.
+              </p>
+              <ul>
+                <li>✅ Sensor kelembapan tanah & level air</li>
+                <li>✅ Auto/manual control melalui Blynk App</li>
+                <li>✅ Monitoring suhu, kelembapan, dan soil moisture</li>
+              </ul>
+              <div class="tech-stack">
+                <span>ESP32</span> <span>Blynk</span>
+                <span>IoT Sensors</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="cta-section" data-aos="zoom-in">
+        <div class="container text-center">
+          <h2>Tertarik Berkolaborasi?</h2>
+          <p>
+            Lihat demo produk kami atau diskusikan bagaimana SinoTech dapat
+            membantu bisnis Anda.
+          </p>
+          <a href="mailto:sinotech@email.com" class="btn btn-primary"
+            >Hubungi Kami Sekarang!</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <p><strong>SinoTech</strong></p>
+            <p>📧 sinotech@email.com</p>
+            <p>📍 Jakarta, Indonesia</p>
+          </div>
+          <div class="footer-links">
+            <a href="#about">Tentang</a>
+            <a href="#products">Produk</a>
+            <a href="#contact">Kontak</a>
+          </div>
+          <div class="footer-qr">
+            <img
+              src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://github.com"
+              alt="QR Code"
+            />
+            <p>Scan for More</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025 SinoTech. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
